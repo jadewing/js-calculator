@@ -1,0 +1,29 @@
+#container {
+    border:1px black solid;
+    overflow:hidden;
+    width:158px;
+}
+#res {
+    height:28px;
+    line-height:28px;
+    border:1px solid black;
+    width:145px;
+    margin:3px;
+    text-align:right;
+    padding-right:5px;
+}
+.keys {
+    width:28px;
+    height:28px;
+    border:1px black solid;
+    margin:5px;
+    border-radius:50%;
+    float:left;
+    text-align:center;
+    line-height:30px;
+    cursor:pointer;
+}
+.keys:hover {
+    background-color:blue;
+    color:white;
+}
